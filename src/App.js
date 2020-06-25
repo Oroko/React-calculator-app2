@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Button from "./components/Button";
+import Input from "./components/Input"
 
 import "./App.css";
 
@@ -8,6 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calc-wrapper">
+          <div className="row">
+            <Input></Input>
+          </div>
           <div className="row">
             <Button>7</Button>
             <Button>8</Button>
