@@ -6,7 +6,7 @@ class Input extends Component {
         return (  
             <div className="input">
                
-
+                {this.props.children}
             </div>
         );
     }
