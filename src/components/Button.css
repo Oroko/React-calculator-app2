@@ -1,0 +1,12 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4em;
+  font-weight: lighter;
+  font-size: 1.4em;
+  flex: 1;
+  background-color: #e0e1e6;
+  color: #888888;
+  outline: 1px solid #888888;
+}
