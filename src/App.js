@@ -94,6 +94,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="calc-wrapper">
+        <div className="title">
+          <h1>Simple React Calculator</h1>
+        </div>
           <div className="row">
             <Input>{this.state.input}</Input>
           </div>
